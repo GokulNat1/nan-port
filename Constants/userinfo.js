@@ -1,9 +1,8 @@
-//PLEASE FOLLOW THE FORMAT OF THIS FILE.
 
 import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagram, faYoutube, faBehance } from "@fortawesome/free-brands-svg-icons"
 
 export const userinfo = {
-    logoText: "Nandhini Natarajan", //This text is visible on your navbar and footer like your logo.
+    logoText: "Nandhini Natarajan",
     contact: {
         email: 'NandhiniNatarajan@gmail.com', 
         phone: '(443)-883-9357', 
@@ -17,22 +16,20 @@ export const userinfo = {
         subtitle: "I am a motiviated Senior at Dulaney High School with a curious mind. I excel in technical and scientific tasks as well as collaboration and teamworks skills. I think I have a unique mindset and love to contribute to the community! "
     },
     capabilities: [
+        
+        {
+            category: "Software", 
+            skills: ["Microsoft Azure"] 
+        },
         {
             category: "Technical", 
-            skills: ["Autodesk Revit/Inventor", "Autodesk CAD", "Design"] 
+            skills: ["Autodesk Inventor", "Autodesk CAD", "Microsoft Excel"] 
         },
         {
-            category: "Coding",
-            skills: ["JavaScript/HTML", "Java", "Object-Oriented Programming", "Data structures"]
-        },
-        {
-            category: "Economics",
-            skills: ["Microsoft Excel", "Statistical modeling", "Data Visualization"]
-        },
-        {
-            category: "Soft Skills",
-            skills: ["Problem-solving", "Communication", "Negotiation"]
-        },
+            category: "Miscellaneous",
+            skills: ["American Red Cross CPR and First Aid certified", "American Boating Association License", "Food Handler's Card"]
+        }
+
     ],
     about: {
         //bottom of home page.
@@ -46,7 +43,7 @@ export const userinfo = {
                 time: ' Aug 2019 - May 2023', 
                 title: 'High School Diploma', 
                 organization: 'Dulaney High School', 
-                description: 'GPA: 3.88, QPA: 5.36, 8 AP Classes' 
+                description: 'GPA: 3.88, QPA: 5.36' 
             },
             {
                 time: ' Aug 2021 - May 2023', 
@@ -68,13 +65,13 @@ export const userinfo = {
             {
                 company: 'Coffee and Tea',
                 position: 'Barista',
-                time: 'Summer 2021 - June 2022',
+                time: 'February 2021 - June 2022',
                 
             },
             {
                 company: 'Uber Bagels and Deli',
                 position: 'Team Member',
-                time: 'June 2021 - January 2020',
+                time: 'June 2020 - January 2021',
                 description: ''
             },
         ],
@@ -89,10 +86,10 @@ export const headings = {
     //you can customise all the headings here.
     workHomePage: 'Projects',
     workMainPage: 'Projects',
-    capabilities: 'Skills',
+    capabilities: 'Certifications',
     about: 'About Me',
     education: 'Education',
-    experience: 'Experiences',
+    experience: 'Work Experience',
     blogs: 'I write!',
     contact: 'Contact Me',
 }

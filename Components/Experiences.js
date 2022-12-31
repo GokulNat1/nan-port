@@ -27,10 +27,15 @@ const Experiences = ({ currentTheme }) => {
                                             <h4 style={{ color: currentTheme.subtext }}>{exp.time}</h4>
                                         </div>
                                     </Box>
+                
                                 </div>
+
                             )
                         }) : null
                 }
+            </div>
+            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '10vh'}}>
+            <h4> *References Available upon Request </h4>
             </div>
         </div>
     )
