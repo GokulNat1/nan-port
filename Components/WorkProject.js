@@ -2,8 +2,10 @@ import styles from '../styles/Work.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubAlt, faTelegramPlane } from "@fortawesome/free-brands-svg-icons"
 import Link from 'next/link'
-import { HStack, Tag, TagLabel, Tooltip } from "@chakra-ui/react"
+import { HStack, Tag, TagLabel, Tooltip, as} from "@chakra-ui/react"
+import { Box } from '@chakra-ui/react'
 import { useToast } from "@chakra-ui/react"
+import { AspectRatio } from '@chakra-ui/react'
 import { useState } from 'react';
 import Image from 'next/image';
 import { useSwipeable } from "react-swipeable";
@@ -70,7 +72,14 @@ const WorkProject = ({ currentTheme, project, id }) => {
         </div>
         <div className={styles.imageandsocials}>
           <div className={styles.card} {...handlers} style={{ borderColor: currentTheme.footerColor, position: 'relative' }}>
-            <Image src={project.photo[index]} alt='thumbnail image' height='300' width='500' />
+            <Box
+            as='iframe'
+            src= {project.photo[index]}
+            width='100%'
+            sx={{
+            aspectRatio: '16/9'
+            }}
+            />
             <button onClick={back} style={{position: 'absolute', top: '50%', left: '10px', color: 'white', fontSize: '20px'}}>&lt;</button>
             <button onClick={ahead} style={{position: 'absolute', top: '50%', right: '10px', color: 'white', fontSize: '20px'}}>&gt;</button>
           </div>

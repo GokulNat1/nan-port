@@ -1,6 +1,4 @@
 // import project demo images as follows.
-import PROJECT1_1 from '../styles/projects/Project1_1.jpg';
-import PROJECT2_1 from '../styles/projects/Project2_1.jpg';
 import PROJECT3_1 from '../styles/projects/Project3_1.jpg';
 export const projects = [
 
@@ -10,7 +8,7 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/',
         projectLink: 'https://31-create-nandhini05.malapprinciples.repl.co/',
         tech: ['Java', 'OOP', 'Data Structures'],
-        photo: [PROJECT3_1],
+        photo: ['https://www.youtube.com/embed/6xibXd-a_d8'],
     },
     {
         name: 'Farm Game',
@@ -18,7 +16,7 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/',
         projectLink: 'https://31-create-nandhini05.malapprinciples.repl.co/',
         tech: ['Java'],
-        photo: [PROJECT3_1],
+        photo: ['https://www.youtube.com/embed/6xibXd-a_d8'],
     },
     {
         name: 'Lion\'s Den',
@@ -26,7 +24,7 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/Lion-s-Den',
         projectLink: 'https://replit.com/@nandhini05/Lions-Den',
         tech: ['Java', 'OOP', 'Data Structures'],
-        photo: [PROJECT2_1],
+        photo: ['https://www.youtube.com/embed/VE-lQO4Bd4o'],
     },
     {
         name: 'Face Printer', //project name
@@ -34,7 +32,7 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/', 
         projectLink: 'https://replit.com/@nandhini05/FacePrinter', 
         tech: ['Java', 'OOP', 'Data Structures'], 
-        photo: [PROJECT1_1], 
+        photo: ['https://www.youtube.com/embed/Ei3N00EBpPE'], 
     },
     {
         name: 'Palindrome',
@@ -42,6 +40,6 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/Palindrome',
         projectLink: 'https://replit.com/@nandhini05/Palindrome#Wordsmith.java',
         tech: ['Java', 'Recursion'],
-        photo: [PROJECT3_1],
+        photo: ['https://www.youtube.com/embed/gmt-pPMzv2o'],
     },
 ]
