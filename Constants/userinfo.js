@@ -34,7 +34,7 @@ export const userinfo = {
     about: {
         //bottom of home page.
         content: "Learn more about me!",
-        resume: "/../styles/projects/resume/pdf" 
+        resume: "https://i.ibb.co/F5t3Hpf/Nandhini-Natarajan-Resume.jpg" 
     },
     education: {
         visible: true, 
