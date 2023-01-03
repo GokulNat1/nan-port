@@ -12,8 +12,8 @@ export const userinfo = {
         { type: 'github', link: 'https://github.com/NandhiniNatarajan1', icon: faGithubAlt },
     ],
     greeting: {
-        title: "Hey there, I am Nandhini.",
-        subtitle: "I am a motiviated Senior at Dulaney High School with a curious mind. I excel in technical and scientific tasks as well as collaboration and teamworks skills. I think I have a unique mindset and love to contribute to the community! "
+        title: "Hi, I'm Nandhini.",
+        subtitle: "I am currently a senior at Dulaney High School. I have always had a curious mind and enjoy tackling technical and scientific tasks. In addition to my strong analytical skills, I am also a strong collaborator and have developed excellent teamwork skills."
     },
     capabilities: [
         
@@ -34,7 +34,7 @@ export const userinfo = {
     about: {
         //bottom of home page.
         content: "Learn more about me!",
-        resume: "/" 
+        resume: "/../styles/projects/resume/pdf" 
     },
     education: {
         visible: true, 
