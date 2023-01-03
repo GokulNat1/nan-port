@@ -12,7 +12,7 @@ export const projects = [
     },
     {
         name: 'Farm Game',
-        description: 'You are a farmer in charge of taking care of your crops!',
+        description: 'You are a farmer in charge of taking care of your crops! Use the arrow keys to move around your farm and plant and harvest your crops.',
         githubLink: 'https://github.com/NandhiniNatarajan1/',
         projectLink: 'https://31-create-nandhini05.malapprinciples.repl.co/',
         tech: ['Java'],
@@ -24,7 +24,7 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/Lion-s-Den',
         projectLink: 'https://replit.com/@nandhini05/Lions-Den',
         tech: ['Java', 'OOP', 'Data Structures'],
-        photo: ['https://www.youtube.com/embed/VE-lQO4Bd4o'],
+        photo: ['https://www.youtube.com/embed/7XvCpXoSmq8'],
     },
     {
         name: 'Face Printer', //project name
@@ -32,7 +32,7 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/', 
         projectLink: 'https://replit.com/@nandhini05/FacePrinter', 
         tech: ['Java', 'OOP', 'Data Structures'], 
-        photo: ['https://www.youtube.com/embed/Ei3N00EBpPE'], 
+        photo: ['https://www.youtube.com/embed/UyINVGEwf8g'], 
     },
     {
         name: 'Palindrome',
@@ -40,6 +40,6 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/Palindrome',
         projectLink: 'https://replit.com/@nandhini05/Palindrome#Wordsmith.java',
         tech: ['Java', 'Recursion'],
-        photo: ['https://www.youtube.com/embed/gmt-pPMzv2o'],
+        photo: ['https://www.youtube.com/embed/lwBHYs8kgr8'],
     },
 ]

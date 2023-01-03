@@ -12,14 +12,14 @@ export const userinfo = {
         { type: 'github', link: 'https://github.com/NandhiniNatarajan1', icon: faGithubAlt },
     ],
     greeting: {
-        title: "Hi, I'm Nandhini.",
+        title: "Nandhini Natarajan",
         subtitle: "I am currently a senior at Dulaney High School. I have always had a curious mind and enjoy tackling technical and scientific tasks. In addition to my strong analytical skills, I am also a strong collaborator and have developed excellent teamwork skills."
     },
     capabilities: [
         
         {
             category: "Software", 
-            skills: ["Microsoft Azure"] 
+            skills: ["Google Java Training", "Microsoft Azure Fundamentals",] 
         },
         {
             category: "Technical", 
@@ -99,7 +99,7 @@ export const ctaTexts = {
     landingCTA: 'My work',
     workCTA: 'View All',
     capabCTA: 'Get in Touch',
-    educationCTA: 'About Me',
+    educationCTA: '< ↓',
     resumeCTA: 'Resume',
     submitBTN: 'Submit'
 }
