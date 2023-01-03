@@ -8,7 +8,7 @@ export const projects = [
         githubLink: 'https://github.com/NandhiniNatarajan1/',
         projectLink: 'https://31-create-nandhini05.malapprinciples.repl.co/',
         tech: ['Java', 'OOP', 'Data Structures'],
-        photo: ['https://www.youtube.com/embed/6xibXd-a_d8'],
+        photo: ['https://www.youtube.com/embed/FfsONZB0J0c'],
     },
     {
         name: 'Farm Game',
