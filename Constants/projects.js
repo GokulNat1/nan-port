@@ -4,15 +4,15 @@ export const projects = [
     {
         name: 'Farm Game',
         description: 'You are a farmer in charge of taking care of your crops! Use the arrow keys to move around your farm and plant and harvest your crops.',
-        githubLink: 'https://github.com/NandhiniNatarajan1/',
+        githubLink: 'https://github.com/NandhiniNatarajan1/FarmGame',
         projectLink: 'https://31-create-nandhini05.malapprinciples.repl.co/',
-        tech: ['Java'],
+        tech: ['Java', 'OOP'],
         photo: ['https://www.youtube.com/embed/7beX24DMfKE'],
     },
     {
         name: 'Match the Number',
         description: 'Click on 2 bubbles, the program will check for a match. If the two values match, the bubbles will turn green. If the values fo not match, the numbers will disappear and the user can restart and try to find a match.',
-        githubLink: 'https://github.com/NandhiniNatarajan1/',
+        githubLink: 'https://github.com/NandhiniNatarajan1/matchTheNumber',
         projectLink: 'https://31-create-nandhini05.malapprinciples.repl.co/',
         tech: ['Java', 'OOP', 'Data Structures'],
         photo: ['https://www.youtube.com/embed/FfsONZB0J0c'],
