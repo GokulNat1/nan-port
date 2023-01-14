@@ -1,15 +1,6 @@
 // import project demo images as follows.
 import PROJECT3_1 from '../styles/projects/Project3_1.jpg';
 export const projects = [
-
-    {
-        name: 'Match the Number',
-        description: 'Click on 2 bubbles, the program will check for a match. If the two values match, the bubbles will turn green. If the values fo not match, the numbers will disappear and the user can restart and try to find a match.',
-        githubLink: 'https://github.com/NandhiniNatarajan1/',
-        projectLink: 'https://31-create-nandhini05.malapprinciples.repl.co/',
-        tech: ['Java', 'OOP', 'Data Structures'],
-        photo: ['https://www.youtube.com/embed/FfsONZB0J0c'],
-    },
     {
         name: 'Farm Game',
         description: 'You are a farmer in charge of taking care of your crops! Use the arrow keys to move around your farm and plant and harvest your crops.',
@@ -19,12 +10,12 @@ export const projects = [
         photo: ['https://www.youtube.com/embed/7beX24DMfKE'],
     },
     {
-        name: 'Lion\'s Den',
-        description: 'Use of 2D arrays to construct a game in which you must try to get the Person (P) to the Exit (E). Each turn, type in n, e, s, w and hit enter to move. Try to avoid the lions (&) which move randomly.',
-        githubLink: 'https://github.com/NandhiniNatarajan1/Lion-s-Den',
-        projectLink: 'https://replit.com/@nandhini05/Lions-Den',
+        name: 'Match the Number',
+        description: 'Click on 2 bubbles, the program will check for a match. If the two values match, the bubbles will turn green. If the values fo not match, the numbers will disappear and the user can restart and try to find a match.',
+        githubLink: 'https://github.com/NandhiniNatarajan1/',
+        projectLink: 'https://31-create-nandhini05.malapprinciples.repl.co/',
         tech: ['Java', 'OOP', 'Data Structures'],
-        photo: ['https://www.youtube.com/embed/7XvCpXoSmq8'],
+        photo: ['https://www.youtube.com/embed/FfsONZB0J0c'],
     },
     {
         name: 'Face Printer', //project name
@@ -33,6 +24,22 @@ export const projects = [
         projectLink: 'https://replit.com/@nandhini05/FacePrinter', 
         tech: ['Java', 'OOP', 'Data Structures'], 
         photo: ['https://www.youtube.com/embed/UyINVGEwf8g'], 
+    },
+    {
+        name: 'Lion\'s Den Maze',
+        description: 'Use of 2D arrays to construct a game in which you must try to get the Person (P) to the Exit (E). Each turn, type in n, e, s, w and hit enter to move. Try to avoid the lions (&) which move randomly.',
+        githubLink: 'https://github.com/NandhiniNatarajan1/Lion-s-Den',
+        projectLink: 'https://replit.com/@nandhini05/Lions-Den',
+        tech: ['Java', 'OOP', 'Data Structures'],
+        photo: ['https://www.youtube.com/embed/7XvCpXoSmq8'],
+    },
+    {
+        name: 'Firework',
+        description: 'Right click, left click, or middle click in order to display your own fireworks on the screen.',
+        githubLink: 'https://github.com/NandhiniNatarajan1/Firework',
+        projectLink: 'https://github.com/NandhiniNatarajan1/Firework',
+        tech: ['Java', 'OOP'],
+        photo: ['https://www.youtube.com/embed/2rLZ8rQRnVo'],
     },
     {
         name: 'Palindrome',
